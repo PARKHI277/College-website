@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+    <title>college</title>
+</head>
+<body>
+   <section class = "header">
+       <nav>
+           <a href = "index.html"><img src = "images/logo.png"></a>
+           <div class = "nav-links" id = "navLinks">
+            <i class="fa fa-times"oneclick = "hideMenu"></i>
+               <ul>
+                   <li><a href = "">Home</a></li>
+                   <li><a href = "">About</a></li>
+                   <li><a href = "">Course</a></li>
+                   <li><a href = "">Blog</a></li>
+                  <li><a href = "">Course</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars"onclick ="showMenu()"></i>
+        </nav>
+    
+            <div class = "text-box">
+            <h1>Amity Universty</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, cumque blanditiis perferendis provident mollitia, 
+                fugit laborum dignissimos quidem maiores dolore nobis est quam aliquam. Deserunt asperiores accusamus ad totam alias?</p>
+            <a href = "" class = "hero-btn">Learn more</a>
+            </div>
+
+   </section>
+
+   <section class = "course">
+       <h1>Course we provide</h1>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quod ullam consectetur amet laboriosam quas, praesentium sed sequi accusamus maiores, provident id, perspiciatis consequatur assumenda cumque pariatur porro consequuntur aut?</p>
+       <div class= "row">
+           <div class = "course-col">
+               <h3>Interme</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis ipsum, vitae, laboriosam consectetur dolores expedita repellat possimus distinctio quos, omnis veniam. Aut provident autem amet obcaecati illo sint itaque.</p>
+
+           </div>
+           <div class = "course-col">
+            <h3>Interme</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis ipsum, vitae, laboriosam consectetur dolores expedita repellat possimus distinctio quos, omnis veniam. Aut provident autem amet obcaecati illo sint itaque.</p>
+            
+        </div>
+        <div class = "course-col">
+            <h3>Interme</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis ipsum, vitae, laboriosam consectetur dolores expedita repellat possimus distinctio quos, omnis veniam. Aut provident autem amet obcaecati illo sint itaque.</p>
+            
+        </div>
+       </div>
+   </section>
+
+   <section class = "campus">
+       <h1>Our Campus</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+       <div class = "row">
+           <div class = "campus-col">
+               <img src = "images/2.jpg">
+               <div class = "layer">
+                   <h3>INDIA</h3>
+               </div>
+           </div>
+           <div class = "campus-col">
+            <img src = "images/3.jpeg">
+            <div class = "layer">
+                <h3>INDIA</h3>
+            </div>
+        </div>
+        <div class = "campus-col">
+            <img src = "images/6.jpg">
+            <div class = "layer">
+                <h3>INDIA</h3>
+            </div>
+        </div>
+       </div>
+   </section>
+
+   <section class =  "facilities">
+       
+   </section>
+   
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu()
+       {
+           navLinks.style.right = "0";
+       }
+       function hideMenu()
+       {
+           navLinks.style.right = "-200px";
+       }
+   </script>
+</body>
+</html>
