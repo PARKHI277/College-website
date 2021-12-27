@@ -16,88 +16,188 @@
        <nav>
            <a href = "index.html"><img src = "images/logo.png"></a>
            <div class = "nav-links" id = "navLinks">
-            <i class="fa fa-times"oneclick = "hideMenu"></i>
+            <!-- <i class="fa fa-times"oneclick = "hideMenu()"></i> -->
                <ul>
-                   <li><a href = "">Home</a></li>
-                   <li><a href = "">About</a></li>
-                   <li><a href = "">Course</a></li>
-                   <li><a href = "">Blog</a></li>
-                  <li><a href = "">Course</a></li>
+                   <li><a href = "#text-box">Home</a></li>
+                   <li><a href = "#course">Courses</a></li>
+                   <li><a href = "#campus">Infrastructure</a></li>
+                   <li><a href = "">Reviews</a></li>
+                  <li><a href = ""><button>Contact</button></a></li>
                  </ul>
             </div>
-            <i class="fa fa-bars"onclick ="showMenu()"></i>
+            <!-- <i class="fa fa-bars"onclick ="showMenu()"></i> -->
         </nav>
     
-            <div class = "text-box">
+            <div id = "text-box">
             <h1>Amity Universty</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, cumque blanditiis perferendis provident mollitia, 
-                fugit laborum dignissimos quidem maiores dolore nobis est quam aliquam. Deserunt asperiores accusamus ad totam alias?</p>
+            <p>At Amity we are passionate about grooming leaders who are not only thorough professionals but also good human beings with values and sanskars.
+                As part of this endeavour, we have air-conditioned amphitheatre style classrooms 
+                that provide the most conducive atmosphere for dynamic and focused discussions, 
+                while the libraries at our campus are equipped with over 1,00,000 books, periodicals, 
+                national and international journals, CD-ROMS, covering all aspects of academic studies and research material. The hi-tech labs act as ideal training grounds for budding professionals that allow students to experiment and bring to practice what they have learnt in theory.
+
+            </p>
             <a href = "" class = "hero-btn">Learn more</a>
             </div>
 
    </section>
 
-   <section class = "course">
-       <h1>Course we provide</h1>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quod ullam consectetur amet laboriosam quas, praesentium sed sequi accusamus maiores, provident id, perspiciatis consequatur assumenda cumque pariatur porro consequuntur aut?</p>
+   <section id= "course">
+       <h1>COURSES</h1>
+       <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quod ullam consectetur amet laboriosam quas, praesentium sed sequi accusamus maiores, provident id, perspiciatis consequatur assumenda cumque pariatur porro consequuntur aut?</p> -->
        <div class= "row">
            <div class = "course-col">
-               <h3>Interme</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis ipsum, vitae, laboriosam consectetur dolores expedita repellat possimus distinctio quos, omnis veniam. Aut provident autem amet obcaecati illo sint itaque.</p>
-
-           </div>
+               <h3>International Courses</h3>
+               <p>GSP is a unique international lateral transfer program, where the students spend one or two years at Amity in India and the balance number of years of the degree 
+                   at a University of their choice abroad.</p>
+          </div>
            <div class = "course-col">
-            <h3>Interme</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis ipsum, vitae, laboriosam consectetur dolores expedita repellat possimus distinctio quos, omnis veniam. Aut provident autem amet obcaecati illo sint itaque.</p>
+            <h3>Applied Science</h3>
+            <p>B.Sc. (Dietetics & Applied Nutrition)
+                <br>B.Sc. (Hons) - Biochemistry
+                <br>Bachelor of Science (Hons) - Mathematics with Research
+                <br>Bachelor of Statistics
+            </p>
             
         </div>
         <div class = "course-col">
-            <h3>Interme</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reiciendis ipsum, vitae, laboriosam consectetur dolores expedita repellat possimus distinctio quos, omnis veniam. Aut provident autem amet obcaecati illo sint itaque.</p>
+            <h3>Computer Science</h3>
+            <p>B.Sc(IT-International)
+                <br>B.Sc. (Hons) - Data Science
+                 <br>B.Tech (Information Technology
+                 <br>Bachelor of Science (Information Technology)
+            </p>
             
         </div>
+        
        </div>
-   </section>
-
-   <section class = "campus">
-       <h1>Our Campus</h1>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-       <div class = "row">
-           <div class = "campus-col">
-               <img src = "images/2.jpg">
-               <div class = "layer">
-                   <h3>INDIA</h3>
-               </div>
-           </div>
-           <div class = "campus-col">
-            <img src = "images/3.jpeg">
-            <div class = "layer">
-                <h3>INDIA</h3>
-            </div>
-        </div>
-        <div class = "campus-col">
-            <img src = "images/6.jpg">
-            <div class = "layer">
-                <h3>INDIA</h3>
-            </div>
-        </div>
-       </div>
-   </section>
-
-   <section class =  "facilities">
        
    </section>
+
    
-   <script>
-       var navLinks = document.getElementById("navLinks");
-       function showMenu()
-       {
-           navLinks.style.right = "0";
-       }
-       function hideMenu()
-       {
-           navLinks.style.right = "-200px";
-       }
-   </script>
+     
+   <section id = "campus">
+      
+    <div class = "sections">Life in Amity University</div>
+
+    <div class = "college">
+        <img src = "images/i4.jpg">
+    </div>
+    <div class = "college">
+        <img src = "images/i3.jpg">
+    </div>
+    <div class = "college">
+        <img src = "images/i2.jpeg">
+    </div>
+    <div class = "college">
+        <img src = "images/6.jpg">
+    </div>
+    <div class = "college">
+        <img src = "images/5.jpg">
+    </div>
+    <div class = "college">
+        <img src = "images/3.jpeg">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)"></a>
+        <a class="next" onclick="plusSlides(1)"></a>
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="images/i4.jpg" style="width:100%" onclick="currentSlide(1)"
+                alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="images/i3.jpg" style="width:100%" onclick="currentSlide(2)"
+                alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="images/i2.jpeg" style="width:100%" onclick="currentSlide(3)"
+                alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="images/6.jpg" style="width:100%" onclick="currentSlide(4)"
+                alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="images/5.jpg" style="width:100%" onclick="currentSlide(5)"
+                alt="">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="images/3.jpeg" style="width:100%" onclick="currentSlide(6)"
+                alt="">
+        </div>
+    </div>
+</div>
+</section>
+
+   
+
+   <section class = "reviews">
+       <h1>What student says</h1>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+        <div class = "row">
+            <div class = "reviews-col">
+                <img src = "images/university2.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolor nemo eveniet ea, voluptates, nam deleniti 
+                        fugiat sequi eos aliquam quo neque labore laborum
+                         distinctio voluptatem
+                         sit porro exercitationem recusandae natus!
+                    </p>
+                    <h3>Christan</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class = "reviews-col">
+                <img src = "images/i3.jpg">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolor nemo eveniet ea, voluptates, nam deleniti 
+                        fugiat sequi eos aliquam quo neque labore laborum
+                         distinctio voluptatem
+                         sit porro exercitationem recusandae natus!
+                    </p>
+                    <h3>Christan</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <section class = "cta">
+       <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h1>
+       <a href = "" class = "hero-btn">CONTACT US</a>
+
+
+   </section>
+
+   <section class = "footer">
+       <h4>About us</h4>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem 
+           eum illo atque cupiditate veritatis!
+       </p>
+       <div class = "icons">
+        <i class="fab fa-facebook"></i>
+           <i class="fab fa-twitter"></i>
+           <i class="fab fa-instagram-square"></i>
+           <i class="fab fa-linkedin-in"></i>
+          
+
+       </div>
+   </section>
+   
+   <script src = "script.js"></script>
 </body>
 </html>
