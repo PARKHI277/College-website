@@ -419,3 +419,103 @@ h3
 .demo:hover {
     opacity: 1;
 }
+#contact
+{
+    background:yellow;
+    padding:80px;
+    width:100%;
+}
+.contact-column
+{
+    float:left;
+    width:50%;
+    height: 420px;
+}
+.contact-form {
+    padding-left: 40px;
+    margin: 10px;
+    height: 400px;
+}
+.form-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+}
+.map {
+    margin: 10px;
+    height: 400px;
+}
+
+.msg {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 255px;
+    font-family: 'Open Sans';
+}
+.form-detail {
+    font-weight: bold;
+    padding-left: 5px;
+    width: 255px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form {
+    padding: 10px 0px 10px 0px;
+}
+/* .map {
+    margin: 10px;
+    height: 400px;
+} */
+
+.send-btn {
+    border: none;
+    background: black;
+    background-color: #eeee18;
+    color: blue;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    height: 35px;
+    width: 255px;
+    transition: 0.4s;
+}
+.send-btn:hover {
+    opacity: 0.8;
+}
+
+.send-btn:active {
+    opacity: 0.6;
+}
+
+
+.footer-column {
+    float: left;
+    width: 27%;
+    margin: 1%;
+    padding: 2%;
+}
+
+.footer-detail {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+.follow-column {
+    float: left;
+    text-align: center;
+    width: 20%;
+}
