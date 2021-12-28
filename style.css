@@ -14,9 +14,8 @@
 {
     min-height: 100vh;
     width:100%;
-    background-image: linear-gradient(hsl(0deg 12% 71% / 39%),rgba(4,9,30,0.7)),url(images/3.jpeg);
+    background-image: linear-gradient(rgba(122, 47, 47, 0.39),rgba(4,9,30,0.7)),url(images/3.jpeg);
 }
-
 nav
 {
     display:flex;
@@ -120,31 +119,31 @@ nav .fa
     display:none;
 }
 
-@media(max-width: 700px)
+ @media(max-width: 700px)
 {
     .text-box h1
   {
-    font-size: 62px;
+    font-size: 60px;
   }
   .nav-links ul li
   {
-      display:block;
+    display:block;
   }
   .nav-links 
   {
       position:absolute;
-      background: #f44336;
+      background:  yellow;
       height:100vh;
-      width:200px;
+      width:250px;
       top:0;
-      right:-200px;
+      right:-150px;
       text-align: left;
-      z-index:2;
-      transition:1s;
-  }
-  
-
+      z-index:1;
+      transition:2s;
+  } 
+   
 }
+
 
 #course
 {
@@ -300,7 +299,7 @@ h3
 {
     width:70%;
     padding: 50px 50px;
-    background:yellow;
+    background:#a78a1e94;
     margin-top:200px;
     margin-left:120px;
 }
