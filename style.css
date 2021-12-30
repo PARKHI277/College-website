@@ -292,7 +292,7 @@ h3
     border: 5px solid blue;
 }
 .review-columns:hover {
-    box-shadow: 0px 0px 30px 0px rgb(65, 255, 239);
+    box-shadow:  0 0 15px 0 rgb(65, 255, 239);
     border-radius: 10px;
 }
 .review-columns img {
@@ -344,14 +344,8 @@ h3
     font-size: 40px;
     font-weight: bold;
 }
-input:focus,
-textarea:focus {
-    outline: none;
-}
-/* .map {
-    margin: 10px;
-    height: 400px;
-} */
+
+
 
 .msg {
     border-radius: 5px;
@@ -414,9 +408,7 @@ textarea:focus {
     opacity: 0.8;
 }
 
-.send-btn:active {
-    opacity: 0.6;
-}
+
 .footer
 {
     width:100%;
@@ -424,19 +416,10 @@ textarea:focus {
     padding:30px 0;
     
 }
-.footer h4
-{
-    margin-bottom:25px;
-    margin-top:20px;
-    font-weight:600;
-  
-}
-
 .footer-column {
     float: left;
     width: 30%;
     padding: 1%;
-    
 }
 
 .footer-detail {
